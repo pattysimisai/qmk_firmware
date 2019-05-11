@@ -66,6 +66,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+<<<<<<< HEAD
 /* key combination for command */
 #define IS_COMMAND() ( \
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
@@ -79,6 +80,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TOGGLE 3
 #define PERMISSIVE_HOLD
 
+=======
+>>>>>>> upstream/master
 #define RGB_DI_PIN F6
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 10
