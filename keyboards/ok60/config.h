@@ -66,6 +66,22 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+<<<<<<< HEAD
+/* key combination for command */
+#define IS_COMMAND() ( \
+    keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
+)
+
+/* prevent stuck modifiers */
+#define PREVENT_STUCK_MODIFIERS
+
+/* tap term modifications */
+#define TAPPING_TERM 140
+#define TAPPING_TOGGLE 3
+#define PERMISSIVE_HOLD
+
+=======
+>>>>>>> upstream/master
 #define RGB_DI_PIN F6
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 10
